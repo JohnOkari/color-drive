@@ -30,7 +30,21 @@ const Services = () => {
       title: "Tint",
       content:
         "Our skilled team provides meticulous    cleaning and restoration for both the  exterior and interior of your car, along    with specialized treatments   ",
-    }
+    },
+    {
+      id: 5,
+      image: "/services5.png",
+      title: "Steam Wash",
+      content:
+        "Our skilled team provides meticulous    cleaning and restoration for both the  exterior and interior of your car, along    with specialized treatments   ",
+    },
+    { 
+      id: 6,
+      image: "/services6.png",
+      title: "Alignment",
+      content:
+        "Our skilled team provides meticulous    cleaning and restoration for both the  exterior and interior of your car, along    with specialized treatments   ",
+    },
   ];
   return (
     <div
