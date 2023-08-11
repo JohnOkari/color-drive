@@ -3,7 +3,34 @@ import servicesbg from "/servicesbg.png";
 
 const Services = () => {
   const services = [
-    
+    {
+      id: 1,
+      image: "/services1.png",
+      title: "Gerneral Car services",
+      content:
+        "Our skilled team provides meticulous    cleaning and restoration for both the  exterior and interior of your car, along    with specialized treatments   ",
+    },
+    {
+      id: 2,
+      image: "/services3.png",
+      title: "Interior& Exterior wash",
+      content:
+        "Our skilled team provides meticulous    cleaning and restoration for both the  exterior and interior of your car, along    with specialized treatments   ",
+    },
+    {
+      id: 3,
+      image: "/services3.png",
+      title: "Wrap",
+      content:
+        "Our skilled team provides meticulous    cleaning and restoration for both the  exterior and interior of your car, along    with specialized treatments   ",
+    },
+    {
+      id: 4,
+      image: "/services4.png",
+      title: "Tint",
+      content:
+        "Our skilled team provides meticulous    cleaning and restoration for both the  exterior and interior of your car, along    with specialized treatments   ",
+    }
   ];
   return (
     <div
