@@ -47,7 +47,24 @@ const Footer = () => {
           </div>
           <div className="my-12">
             <p className="text-2xl  font-bold">Our Socials</p>
-            
+            <div className="flex gap-2 items-center">
+              <img
+                src="/tiktok.png"
+                className="w-[24px]  h-[24px] object-contain "
+              />
+              <img
+                src="/instagram.png"
+                className="w-[24px]  h-[24px] object-contain "
+              />
+              <img
+                src="/twitter.png"
+                className="w-[24px]  h-[24px] object-contain "
+              />
+              <img
+                src="/facebook.png"
+                className="w-[24px]  h-[24px] object-contain"
+              />
+            </div>
           </div>
         </div>
         <Map
